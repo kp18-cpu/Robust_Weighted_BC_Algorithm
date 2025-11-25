@@ -69,30 +69,35 @@ You can adjust the intensity of the robustness test by modifying:
 
 1. Clone the repository:
 
-``` git clone https://github.com/yourusername/offline-rl-poisoning.git
-cd offline-rl-poisoning ```
+```bash
+git clone https://github.com/yourusername/offline-rl-poisoning.git
+cd offline-rl-poisoning
+```
 
 
 2. Install the required dependencies:
 
+```bash
 pip install -r requirements.txt
-
+```
 
 Ensure your `requirements.txt` includes:
 
+```bash
 numpy
 matplotlib
 torch
 minari
 gymnasium[mujoco]
-
+```
 
 ## Usage
 
 To run the full pipeline (Data Loading -> Integrity Check -> Training -> Evaluation), simply execute the main script:
 
+```bash
 python action_poisoning_with_integrity.py
-
+```
 
 ### Expected Output
 

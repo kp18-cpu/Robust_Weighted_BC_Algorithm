@@ -69,8 +69,8 @@ You can adjust the intensity of the robustness test by modifying:
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/offline-rl-poisoning.git
-cd offline-rl-poisoning
+``` git clone https://github.com/yourusername/offline-rl-poisoning.git
+cd offline-rl-poisoning ```
 
 
 2. Install the required dependencies:
